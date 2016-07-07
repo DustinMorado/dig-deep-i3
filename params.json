@@ -1,6 +1,6 @@
 {
   "name": "Dig-deep-i3",
   "tagline": "My attempt to grok I3",
-  "body": "# dig-deep-i3\r\nMy attempt to grok I3\r\n",
+  "body": "# Digging Deep into I3\r\n\r\nI'm writing this to try and map out what I3 is *really* doing, and unwrapping\r\nsome of the heavier layers of abstraction at least at the level of shell\r\nscripts.\r\n\r\nSince I3 is closed source and distributed binaries. Once you get down to the\r\ncompiled binaries there's no clue as to what's going on besides using the usage\r\nstatements, which may as well be written in heiroglyphics.\r\n\r\n### Project Root Directory\r\n\r\nAll projects start relative to a directory, which I will refer to as the project\r\nroot directory. Since I3 suggests using relative paths, I can refer to it as `.`\r\nor `project`.\r\n\r\n### i3param.sh\r\n\r\nThis file is the heart of i3 programs and defines a huge set of shell\r\nenvironment variables that i3 uses for what appears to be everything. The name\r\nof the file is stored in the environment variable `I3PARAM`, and in the\r\nsubvolume tutorial it is named `./mraparam.sh`. \r\n\r\nI've documented the list of environment variable as well as the explanations\r\ngiven in the tutorial file here: [i3param.sh](./i3param.md). \r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }

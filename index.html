@@ -1,52 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Dig-deep-i3 : My attempt to grok I3">
+    <title>Dig-deep-i3 by DustinMorado</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Dig-deep-i3</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
+    <div class="wrapper">
+      <header>
+        <h1>Dig-deep-i3</h1>
+        <p>My attempt to grok I3</p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/DustinMorado/dig-deep-i3">View on GitHub</a>
+        <p class="view"><a href="https://github.com/DustinMorado/dig-deep-i3">View the Project on GitHub <small>DustinMorado/dig-deep-i3</small></a></p>
 
-          <h1 id="project_title">Dig-deep-i3</h1>
-          <h2 id="project_tagline">My attempt to grok I3</h2>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/DustinMorado/dig-deep-i3/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/DustinMorado/dig-deep-i3/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+        <ul>
+          <li><a href="https://github.com/DustinMorado/dig-deep-i3/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/DustinMorado/dig-deep-i3/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/DustinMorado/dig-deep-i3">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
         <h1>
-<a id="dig-deep-i3" class="anchor" href="#dig-deep-i3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>dig-deep-i3</h1>
+<a id="digging-deep-into-i3" class="anchor" href="#digging-deep-into-i3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Digging Deep into I3</h1>
 
-<p>My attempt to grok I3</p>
+<p>I'm writing this to try and map out what I3 is <em>really</em> doing, and unwrapping
+some of the heavier layers of abstraction at least at the level of shell
+scripts.</p>
+
+<p>Since I3 is closed source and distributed binaries. Once you get down to the
+compiled binaries there's no clue as to what's going on besides using the usage
+statements, which may as well be written in heiroglyphics.</p>
+
+<h3>
+<a id="project-root-directory" class="anchor" href="#project-root-directory" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Root Directory</h3>
+
+<p>All projects start relative to a directory, which I will refer to as the project
+root directory. Since I3 suggests using relative paths, I can refer to it as <code>.</code>
+or <code>project</code>.</p>
+
+<h3>
+<a id="i3paramsh" class="anchor" href="#i3paramsh" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>i3param.sh</h3>
+
+<p>This file is the heart of i3 programs and defines a huge set of shell
+environment variables that i3 uses for what appears to be everything. The name
+of the file is stored in the environment variable <code>I3PARAM</code>, and in the
+subvolume tutorial it is named <code>./mraparam.sh</code>. </p>
+
+<p>I've documented the list of environment variable as well as the explanations
+given in the tutorial file here: <a href="./i3param.md">i3param.sh</a>. </p>
       </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Dig-deep-i3 maintained by <a href="https://github.com/DustinMorado">DustinMorado</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/DustinMorado">DustinMorado</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-
+    <script src="javascripts/scale.fix.js"></script>
     
-
   </body>
 </html>
