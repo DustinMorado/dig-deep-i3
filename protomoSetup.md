@@ -2,7 +2,7 @@
 
 I don't plan on going to deep into protomo. I'll need to for `.tlt` file
 formatting and what not, but otherwise it's not my goal as of now. However, this
-is one file that is sourced, along with [`I3LEGACY`](./i3Setup.md#i3legacy), and
+is one file that is sourced, along with [`I3LEGACY`](./setup.md#i3legacy), and
 [`osarch.sh`](./osarch.md) often in scripts. 
 
 ## Usage:
