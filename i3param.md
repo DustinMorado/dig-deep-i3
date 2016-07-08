@@ -127,16 +127,16 @@
 ### MRASRCH
 * `MRASRCH` - Grid search parameters. *Example: "30 4 8 4"*
     * **Note:** For translational alignment only, use "0 0 0 0". For rotational
-      alignment parameters describe <nutation> <nutation step> <spin> <spin
-      step> as follows:
-          1. <nutation> - Maximum half-angle for nutation of rotation axis.
-             0 <= <nutation> <= 180.
-          2. <nutation step> - Angular step of nutation.
-          3. <spin> - In-plane rotations are searched from plus-minus <spin>.
-             0 <= <spin> <= 180.
-          4. <spin step> - Angular step of spin.
+      alignment parameters describe \<nutation\> \<nutation step\> \<spin\> \<spin
+      step\> as follows:  
+      1. \<nutation\> - Maximum half-angle for nutation of rotation axis.
+        0 <= \<nutation\> <= 180.
+      2. \<nutation step\> - Angular step of nutation.
+      3. \<spin\> - In-plane rotations are searched from plus-minus <spin>.
+        0 <= \<spin\> <= 180.
+      4. \<spin step\> - Angular step of spin.
       The angular step of the precession of the rotation axis is defined as
-      equal to <nutation step> as measured from the center of the unit sphere,
+      equal to \<nutation step\> as measured from the center of the unit sphere,
       so that as nutation increases so does the number of precession sampling
       points.
 
