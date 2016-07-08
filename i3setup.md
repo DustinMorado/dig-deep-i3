@@ -76,11 +76,12 @@
   tomograms). *Value: ".:`dir`:..." for dir in [`MAPS`](#maps)*
 
 ## Sources:
-* [`I3ROOT`](./setup.md#i3root)/[setup.sh](./setup.md)
+* [`I3ROOT`](./protomoSetup.md#i3root)/[setup.sh](./protomoSetup.md)
 * [`I3PARAM`](./i3param.md)
 
 ## Does:
-* Makes sure [`I3ROOT`](./setup.md#i3root) is set and that the directory exists.
+* Makes sure [`I3ROOT`](./protomoSetup.md#i3root) is set and that the directory
+  exists.
 * Makes sure if `USEIMAGIC` is set that the directory `IMAGIC_ROOT` exists.
     * **Note:** `USEIMAGIC` and `IMAGIC_ROOT` aren't set anywhere in the I3 that
       I can find, so it should be defined by the user if desired.

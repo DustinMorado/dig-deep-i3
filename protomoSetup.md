@@ -29,26 +29,26 @@ is one file that is sourced, along with [`I3LEGACY`](./i3Setup.md#i3legacy), and
   *Example: /opt/EMAN2*
 
 ### I3LIBPATH
-* `I3LIBPATH` - Shared library search path for I3 related dynamic libraries.  
-  Contains:
+* `I3LIBPATH` - Shared library search path for I3 related dynamic libraries.
+  *Example: `I3LIBPATH` contains:
     * [`I3LIB`](#i3lib)
     * [`I3DEPLIB`](#i3deplib)
-    * [`EMAN2DIR`](#eman2dir)/lib
+    * [`EMAN2DIR`](#eman2dir)/lib*
 
 ### I3EXEPATH
-* `I3EXEPATH` - Executble search path for I3 related binaries and scripts.  
-  Contains:
+* `I3EXEPATH` - Executble search path for I3 related binaries and scripts.
+  *Example: `I3EXEPATH` contains:
     * [`I3ROOT`](#i3root)/bin/[`OS`](osarch.md#os)/[`DISTR`](osarch.md#distr)
     * [`I3ROOT`](#i3root)/bin
     * [`EMAN2DIR`](#eman2dir)/bin
     * /usr/bin
-    * /bin
+    * /bin*
 
 ### I3PYPATH
-* `I3PYPATH` - Python module search path for I3 related Python modules.  
-  Contains:
+* `I3PYPATH` - Python module search path for I3 related Python modules.
+  *Example: `I3PYPATH` contains:
     * [`I3LIB`](#i3lib)
-    * [`EMAN2DIR`](#eman2dir)/lib
+    * [`EMAN2DIR`](#eman2dir)/lib*
 
 ### PATH
 * `PATH` - Modifies the path to include [`I3EXEPATH`](#I3EXEPATH), '.', and
