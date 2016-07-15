@@ -7,10 +7,10 @@
 
 ## Sets:
 ### MAPS
-* `MAPS` - Absolute Path to defs/maps *Value: "$(pwd)/defs/maps"*
+* `MAPS` - Absolute Path to [defs/maps](maps.md) *Value: "$(pwd)/defs/maps"*
 
 ### SETS
-* `SETS` - Absolute path to defs/sets *Value: "$(pwd)/defs/sets"*
+* `SETS` - Absolute path to [defs/sets](sets.md) *Value: "$(pwd)/defs/sets"*
 
 ### PATH
 * `PATH` - Modifies the path to include i3 run scripts in
