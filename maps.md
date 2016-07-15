@@ -26,7 +26,8 @@ One line for each tomogram with at least the first two fields. Fields are:
 
 
 ## Example:
-'''
-../maps tomogram_00001.mrc ../tlt/tomogram_00001.tlt 1 0 0 0 1 0 0 0 1
+```
+../maps tomogram_00001.mrc ../tlt/tomogram_00001.tlt
 ../maps tomogram_00002.mrc ../tlt/tomogram_00002.tlt 1.05 0 0 0 1.05 0 0 0 1.05
-'''
+../maps tomogram_00003.mrc ../tlt/tomogram_00003.tlt 0.97 0 0 0 0.97 0 0 0 0.97
+```
