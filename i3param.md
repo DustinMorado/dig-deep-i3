@@ -29,7 +29,7 @@
 ### WDGCOMP
 * `WDGCOMP` - Missing wedge compensation. *Default: "false"*
     * **Note:** If this is set to true you need to specify the correct `.tlt`
-      file in [`./defs/maps`](./defsMaps.md). It needs to be in the protomo
+      file in [`./defs/maps`](./maps.md). It needs to be in the protomo
       format and not in the IMOD format. 
 
 ## Parameters for raw motif alignment
