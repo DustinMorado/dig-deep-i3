@@ -16,10 +16,11 @@ tomorgram can correspond to multiple subsets. Fields are:
 * `subset` - Subset identifier name.
 
 ## Example:
-'''
+```
 tomogram_00001.mrc subset1
 tomogram_00001.mrc subset2
 tomogram_00001.mrc subset3
 tomogram_00002.mrc subset4
 tomogram_00002.mrc subset5
-'''
+tomogram_00003.mrc subset6
+```
