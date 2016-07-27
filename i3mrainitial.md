@@ -23,6 +23,6 @@
 **Note:** Calls here are made after the current working directory has changed to
 [`DIR`](./i3setup.md#dir).
 * [i3init.sh](./i3init.md)
-* [i3totsum.sh](./i3totsum.sh) raw
+* [i3totsum.sh](./i3totsum.md) raw
 * [i3reference.sh](./i3reference.md) [`REFIMG`](./i3param.md#refimg)
 * [i3msamask.sh](./i3msamask.md) raw 
