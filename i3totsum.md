@@ -8,13 +8,13 @@
 ## Sets:
 ### set
 * `set` - Name of set to use in generating global average.
-  *Value: [`SET`](i3setup.md#set)-suffix
-  *Example: mot-000-raw
+    *Value: [`SET`](i3setup.md#set)-suffix
+    *Example: mot-000-raw
 
 ### avg
 * `avg` - Name of root filename for global average.
-  *Value: `set`-totsum
-  *Example: mot-000-raw-totsum
+    *Value: `set`-totsum
+    *Example: mot-000-raw-totsum
 
 ## Sources:
 None.
