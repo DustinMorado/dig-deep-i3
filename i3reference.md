@@ -51,9 +51,10 @@ None.
    references using [`REFMONTCOL`](i3param.md#refmontcol) or, by default, 10
    columns using [`i3montage`](i3montage.md) and setting the output to
    [`PRFX`](i3setup.md#prfx)-ref-mont.img
-10. If [`YPERM`] is also set to true, then [`i3permute`](i3permute.md) is used
-    along with [`i3montage`](i3montage.md) to generate a reference montage with
-    the references rotated 90 degrees about the X-axis.
+10. If [`YPERM`](i3param.md#yperm) is also set to true, then
+    [`i3permute`](i3permute.md) is used along with [`i3montage`](i3montage.md)
+    to generate a reference montage with the references rotated 90 degrees
+    about the X-axis.
 
 ## Calls:
 * [i3fourier](i3fourier.md)
