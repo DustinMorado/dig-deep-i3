@@ -1,13 +1,8 @@
 # Alphabetical index
 
-## README.md
-## i3boximport.md
-## i3create.md
-## i3dataset.md
-## i3external.md
-## i3init.md
 ## i3mrainitial.md
 * [I3PARAM](./i3mrainitial.md#i3param)
+
 ## i3param.md
 * [CLASSES](./i3param.md#classes)
 * [CLSFACT](./i3param.md#clsfact)
@@ -80,6 +75,7 @@
 * [TRFDIR](./i3param.md#trfdir)
 * [WDGCOMP](./i3param.md#wdgcomp)
 * [YPERM](./i3param.md#yperm)
+
 ## i3setup.md
 * [CLS](./i3setup.md#cls)
 * [CYC](./i3setup.md#cyc)
@@ -97,21 +93,18 @@
 * [SEL](./i3setup.md#sel)
 * [SET](./i3setup.md#set)
 * [SETS](./i3setup.md#sets)
-## i3stat.md
-## i3transf.md
-## i3wedge.md
-## i3wedge2.md
-## index.md
+
 ## maps.md
 * [A](./maps.md#a)
 * [DIR](./maps.md#dir)
 * [MAP](./maps.md#map)
 * [TLT](./maps.md#tlt)
-## new_index.md
+
 ## osarch.md
 * [ARCH](./osarch.md#arch)
 * [DISTR](./osarch.md#distr)
 * [OS](./osarch.md#os)
+
 ## protomoSetup.md
 * [EMAN2DIR](./protomoSetup.md#eman2dir)
 * [I3DEPLIB](./protomoSetup.md#i3deplib)
@@ -123,9 +116,11 @@
 * [LD\_LIBRARY\_PATH](./protomoSetup.md#ld\_library\_path)
 * [PATH](./protomoSetup.md#path)
 * [PYTHONPATH](./protomoSetup.md#pythonpath)
+
 ## sets.md
 * [MAP](./sets.md#map)
 * [SUBSET](./sets.md#subset)
+
 ## setup.md
 * [EMAN2DIR](./setup.md#eman2dir)
 * [I3DEPLIB](./setup.md#i3deplib)

@@ -7,6 +7,7 @@ for i in *.md; do
     echo "## ${i}" >> new_index.md
     grep '###' ${i} |sort -k 2,2 | awk -v mdfile=$i '{ printf "*
     [%s](./%s#%s)\n", toupper($NF), mdfile, tolower($NF)}' >> new_index.md
+    echo '' >> new_index.md
   fi
 done
 
